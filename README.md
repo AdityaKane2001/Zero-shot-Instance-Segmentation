@@ -22,6 +22,8 @@ conda install pytorch=1.1.0 torchvision=0.3.0 cudatoolkit=10.0 -c pytorch
 pip install cython && pip --no-cache-dir install -r requirements.txt
    
 python setup.py develop
+
+pip3 install Pillow=='7.1.2'
 ```
 
 ## Dataset prepare
